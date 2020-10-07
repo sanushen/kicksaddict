@@ -92,7 +92,7 @@
 						    </div>
 						</div>
 						<div class="col-2 q-pa-sm">
-							<div class="row">
+							<div class="row q-gutter-x-lg">
 								<div class="col">
 									<q-img
 						             	src="../assets/images/img-gal-3.jpg"
@@ -135,17 +135,55 @@
             />
 	      </div>
 	      <q-separator vertical size=20px style="background-image: linear-gradient(to bottom, #ce59aa, #c0e586, #26acf3, #ce59aa);"/>
-	      <div class="col-4">
+	      <div class="col">
 	        <div class="column" style="height: 90vh">
-	        	<div class="col ">
-			        .col
-			      </div>
-			      <div class="col-10 ">
-			        .col-10
-			      </div>
-			      <div class="col ">
-			        .col
-			      </div>
+				<div class="col-1">
+					<div class="row q-pa-lg q-gutter-x-lg justify-between">
+					<q-btn
+						size="lg"
+						unelevated
+						padding="md"
+						color="dark"
+						icon="fas fa-shopping-cart"
+					/>
+
+					<q-btn
+						size="lg"
+						unelevated
+						padding="md"
+						color="dark"
+						icon="fas fa-bars"
+					/>
+				</div>
+				</div>
+				<div class="col-10">
+					.col-10
+				</div>
+				<div class="col">
+					<div class="row q-gutter-x-md justify-evenly">
+					<q-btn
+						size="md"
+						unelevated
+						padding="md"
+						color="dark"
+						icon="fab fa-facebook-f"
+					/>
+					<q-btn
+						size="md"
+						unelevated
+						padding="md"
+						color="dark"
+						icon="fab fa-instagram"
+					/>
+					<q-btn
+						size="md"
+						unelevated
+						padding="md"
+						color="dark"
+						icon="fab fa-twitter"
+					/>
+				</div>
+				</div>
 		    </div>
 	      </div>
     	</div>
